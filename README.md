@@ -1,1 +1,1 @@
-# ejerciciospracticos
+# ejerciciospracticosjavascript
