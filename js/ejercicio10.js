@@ -1,7 +1,7 @@
 'use strict'
 
 let frase = prompt('Dime una frase...')
-let expresion = /[aeiouáéíóú]/ ;
+let expresion = /[aeiouáéíóú]/gi ;
 let cadena1 = frase.match(expresion)
 
 for (var i = 0; i < frase.length; i++) {
