@@ -1,8 +1,10 @@
 'use strict'
 
-class AreaCirculo{
+export class AreaCirculo{
     radio = prompt('Introduce el radio del ciruclo en cm');
+
     constructor(radio) {
+
         this.culcularArea();
     }
 
